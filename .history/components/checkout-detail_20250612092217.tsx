@@ -140,7 +140,8 @@ const CheckoutDetail = async ({ reservationId }: { reservationId: string }) => {
                     <div className="flex justify-between items-center py-2">
                       <span className="text-gray-600 font-medium">Duration</span>
                       <span className="text-gray-900 font-semibold">
-                        {duration} {duration <= 1 ? 'Night' : 'Nights'}
+                        {duration} {duration <= 1 ? "Night" : "Nights"}
+                        
                       </span>
                     </div>
                   </div>

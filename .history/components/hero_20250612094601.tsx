@@ -100,11 +100,9 @@ const Hero = () => {
               <div className="relative">
                 {/* Main Image */}
                 <div className="relative h-[600px] lg:h-[700px] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
+                  <i
                     src="/b.jpg"
                     alt="Luxury Hotel Pool"
-                     width={500}
-                     height={550}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>

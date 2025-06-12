@@ -13,9 +13,9 @@ export const LoginGoogle = ({ redirectUrl }: { redirectUrl: string }) => {
   const handleGoogleLogin = async () => {
     try {
       setIsLoading(true);
-      setDebugInfo('Memulai proses login dengan Google...')
+      setDebugInfo('Memulai proses login dengan Google...');
       
-      await signIn('google', { 
+      const = await signIn('google', { 
         callbackUrl: redirectUrl || window.location.origin,
         redirect: true
       });

@@ -30,7 +30,7 @@ const ContactPage = () => {
                 Let's Start a <span className="text-blue-600">Conversation</span>
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
-                We&apos;re here to help and answer any questions you might have. 
+                We're here to help and answer any questions you might have. 
                 We look forward to hearing from you and connecting with you soon.
               </p>
             </div>
@@ -103,7 +103,7 @@ const ContactPage = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Business Hours</h3>
-                    <p className="text-gray-600 mb-2">We&apos;re available during these hours</p>
+                    <p className="text-gray-600 mb-2">We're available during these hours</p>
                     <div className="space-y-1 text-orange-600">
                       <p className="font-medium">Monday - Friday: 9:00 AM - 6:00 PM</p>
                       <p className="font-medium">Saturday: 9:00 AM - 2:00 PM</p>
@@ -121,7 +121,7 @@ const ContactPage = () => {
               <div className="mb-8">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">Send Us a Message</h2>
                 <p className="text-gray-600">
-                 Fill out the form below and we&apos;ll get back to you as soon as possible.
+                  Fill out the form below and we'll get back to you as soon as possible.
                 </p>
               </div>
               <ContactForm />

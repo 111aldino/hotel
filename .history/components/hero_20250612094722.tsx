@@ -104,7 +104,7 @@ const Hero = () => {
                     src="/b.jpg"
                     alt="Luxury Hotel Pool"
                      width={500}
-                     height={550}
+                     height={600}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>

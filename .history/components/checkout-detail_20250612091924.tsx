@@ -1,3 +1,4 @@
+
 import Image from "next/image"
 import { getReservationlById } from "@/lib/data"
 import { formatDate } from "@/lib/utils"
@@ -70,7 +71,7 @@ const CheckoutDetail = async ({ reservationId }: { reservationId: string }) => {
                   </div>
                   
                   <div className="text-right">
-                    <p className="text-sm text-gray-500">Total for {duration} {duration <= 1 ? 'night' : 'nights'}</p>
+                    <p className="text-sm text-gray-500">Total for {duration} {duration <= 1 ? "night" : "nights"}</p>
                     <p className="text-2xl font-bold text-gray-900">
                       {formatCurreccy(reservation.Payment.amount)}
                     </p>
@@ -140,7 +141,7 @@ const CheckoutDetail = async ({ reservationId }: { reservationId: string }) => {
                     <div className="flex justify-between items-center py-2">
                       <span className="text-gray-600 font-medium">Duration</span>
                       <span className="text-gray-900 font-semibold">
-                        {duration} {duration <= 1 ? 'Night' : 'Nights'}
+                        {duration} {duration <= 1 ? "Night" : "Nights"}
                       </span>
                     </div>
                   </div>

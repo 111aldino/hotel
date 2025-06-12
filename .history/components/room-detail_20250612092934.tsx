@@ -202,7 +202,7 @@ const RoomDetail = async ({roomId}: {roomId : string}) => {
                                                 <span className="text-sm font-medium text-gray-700 break-words">David K.</span>
                                             </div>
                                             <p className="text-gray-700 text-sm italic break-words">
-                                               &quot;Perfect location, excellent service, and the room was immaculate. Highly recommended!&quot;
+                                                "Perfect location, excellent service, and the room was immaculate. Highly recommended!"
                                             </p>
                                         </div>
                                     </div>

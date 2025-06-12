@@ -1,7 +1,9 @@
 
+
+
 "use client";
 import { useRef, useState, useTransition } from "react";
-import { IoCloudUploadOutline, IoTrashOutline, IoImageOutline} from "react-icons/io5";
+import { IoCloudUploadOutline, IoTrashOutline, IoImageOutline, IoCheckmarkCircle } from "react-icons/io5";
 import { type PutBlobResult } from "@vercel/blob";
 import Image from "next/image";
 import { BarLoader } from "react-spinners";

@@ -1,7 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-
 
 const Hero = () => {
   return (
@@ -46,7 +44,7 @@ const Hero = () => {
 
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link href="/room">
+                <L href="/room">
                   <button className="group bg-gradient-to-r from-teal-500 to-teal-600 text-white py-4 px-8 rounded-lg text-lg font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-teal-500/25 hover:-translate-y-0.5 flex items-center justify-center gap-3">
                     Booking Now
                     <svg
@@ -56,9 +54,9 @@ const Hero = () => {
                       viewBox="0 0 24 24"
                     ></svg>
                   </button>
-                </Link>
+                </L>
 
-                <Link href="/contact">
+                <a href="/contact">
                   <button className="group bg-gradient-to-r from-teal-500 to-teal-600 text-white py-4 px-8 rounded-lg text-lg font-semibold transition-all duration-300 hover:shadow-xl hover:shadow-teal-500/25 hover:-translate-y-0.5 flex items-center justify-center gap-3">
                     Contact Us
                     <svg
@@ -75,7 +73,7 @@ const Hero = () => {
                       />
                     </svg>
                   </button>
-                </Link>
+                </a>
               </div>
 
               {/* Trust Indicators */}
@@ -100,11 +98,9 @@ const Hero = () => {
               <div className="relative">
                 {/* Main Image */}
                 <div className="relative h-[600px] lg:h-[700px] rounded-2xl overflow-hidden shadow-2xl">
-                  <Image
+                  <img
                     src="/b.jpg"
                     alt="Luxury Hotel Pool"
-                     width={500}
-                     height={550}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
@@ -221,11 +217,11 @@ const Hero = () => {
 
           {/* Bottom CTA */}
           <div className="text-center mt-16">
-            <Link href="/room">
+            <a href="/room">
               <button className="bg-slate-900 text-white hover:bg-slate-800 py-4 px-8 rounded-lg font-semibold transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5">
                 Explore All Amenities
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-screen-xl mx-auto px-4 border-t border-gray-500 py-4 text-center text-base text-gray-500">
-        &copy; Copyright 2025 | Aldino Nama Kasummik
+        &copy; Copyright 2025
       </div>
     </footer>
   );

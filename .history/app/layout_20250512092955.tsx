@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import {Raleway} from "next/font/google";
+import { Geist, Geist_Mono, Raleway } from "next/font/google";
 import "./globals.css";
+import Navlink from "@/components/navbar/navlink";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer";
+// import Hero from "@/components/hero";
 import { SessionProvider } from "next-auth/react";
 import { auth } from "@/auth";
 

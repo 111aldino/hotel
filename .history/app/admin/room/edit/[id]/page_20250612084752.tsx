@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import EditRoom from "@/components/admin/room/edit-room"
 import { Suspense } from "react"
-
+import HeaderSection from "@/components/header_section"
 
 
 const UpdateRoomPage = async ({
