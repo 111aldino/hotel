@@ -1,3 +1,4 @@
+import HeaderSection from "@/components/header_section"
 import CreateRoom from "@/components/admin/room/create-room"
 
 const CreateRoomPage = () => {

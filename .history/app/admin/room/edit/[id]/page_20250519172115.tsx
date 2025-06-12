@@ -19,7 +19,7 @@ const UpdateRoomPage = async ({
 
   return(
           <div className="">
-            {/* <HeaderSection title="Edit Room" subTitle="Lorem ipsum dolor sit amet."/> */}
+            <HeaderSection title="Edit Room" subTitle="Lorem ipsum dolor sit amet."/>
       <div className="max-w-screen-xl px-4 py-16 mt-10 mx-auto">
         <Suspense fallback = {
             <p>Loading........</p>

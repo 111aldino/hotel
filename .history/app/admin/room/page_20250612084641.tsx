@@ -9,7 +9,7 @@ const Roompage = () => {
         title="Create Room"
         subTitle="Lorem ipsum dolor sit amet."
       /> */}
-      <div className="max-w-screen-xl px-4 py-30 mt-20 mx-auto">
+      <div className="max-w-screen-xl px-4 py-30 mt-0 mx-auto">
         <div className="flex items-center justify-between">
           <h1 className="text-4xl font-bold  text-gray-800">Room List</h1>
           <Link

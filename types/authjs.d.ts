@@ -6,7 +6,7 @@ declare module "next-auth"{
         user: User & DefaultSelection ["user"]
     }
     interface User{
-        role?: String
+        role?: string
     }
 }
 

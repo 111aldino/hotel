@@ -73,7 +73,7 @@ const AboutPage = () => {
                             Our <span className="text-blue-600">Purpose</span>
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                            {`Driven by passion and guided by innovation, we're committed to excellence in everything we do.`}
+                            {Driven by passion and guided by innovation, we're committed to excellence in everything we do.
                         </p>
                     </div>
 

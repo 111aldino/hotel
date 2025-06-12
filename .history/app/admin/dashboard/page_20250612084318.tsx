@@ -1,10 +1,8 @@
 import React from "react";
-import HeaderSection from "@/components/header_section";
 
 const DashboardPage = () => {
     return (
          <div className="">
-            <HeaderSection title="Dashboard Room" subTitle="Lorem ipsum dolor sit amet."/>
         <div className="py-20 mt-10">Dashboard Page</div>
         </div>
     )
