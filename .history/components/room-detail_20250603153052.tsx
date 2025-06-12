@@ -1,0 +1,12 @@
+
+
+const RoomDetail = () => {
+    return(
+        <div className="max-w-screen-xl py-16 px-4 grid lg:grid-cols-12 gap-8 mx-auto">
+            <div className="md:col-span-8"></div>
+            <div className="md:cols"></div>
+        </div>
+    )
+}
+
+export default RoomDetail

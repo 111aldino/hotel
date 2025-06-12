@@ -1,0 +1,4 @@
+import del
+export const DeleteButton = ( {id, image,} : {id: string, image: string} ) => {
+  
+}
