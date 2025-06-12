@@ -27,7 +27,7 @@ const ContactPage = () => {
                 Contact Information
               </span>
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Let&apos;s Start a <span className="text-blue-600">Conversation</span>
+                
               </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We&apos;re here to help and answer any questions you might have. 

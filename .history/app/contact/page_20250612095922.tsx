@@ -26,9 +26,7 @@ const ContactPage = () => {
               <span className="inline-block px-4 py-2 bg-blue-100 text-blue-800 text-sm font-medium rounded-full">
                 Contact Information
               </span>
-              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Let&apos;s Start a <span className="text-blue-600">Conversation</span>
-              </h1>
+              <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">              </h1>
               <p className="text-lg text-gray-600 leading-relaxed">
                 We&apos;re here to help and answer any questions you might have. 
                 We look forward to hearing from you and connecting with you soon.

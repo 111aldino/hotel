@@ -1,3 +1,4 @@
+
 "use client"
 import { useState, useActionState } from "react"
 import { addDays } from "date-fns"
@@ -11,22 +12,25 @@ const ReserveForm = ({room}: {room:RoomDetailProps}) => {
   const StartDate = new Date()
   const EndDate = addDays(StartDate, 1)
 
-  const [startDate, setstartDate] = useState(StartDate)
-  const [endDate, setendDate] = useState(EndDate)
+  const [startDate, setstartDate] = useState<Date | null>(StartDate)
+  const [endDate, setendDate] = useState<Date | null>(EndDate)
 
-  const handleDateChange = (dates: any) => {
-    const [start, end] = dates
+  const handleDateChange = (dates: [Date | null, Date | null] | Date | null) => {
+    const [start, end] = dates as [Date | null, Date | null]
     setstartDate(start)
     setendDate(end)
   }
 
-  const [state, formAction, isPending] = useActionState(createReserve.bind(null,room.id, room.price, startDate, endDate ), null )
+  const [state, formAction, isPending] = useActionState(
+    createReserve.bind(null, room.id, room.price, startDate, endDate), 
+    null
+  )
 
   return (
     <form action={formAction}>
       <div className="mb-4">
         <label className="block mb-2 text-sm font-medium text-gray-900">
-          Arivval - Departure
+          Arrival - Departure
         </label>
         <DatePicker
           selected={startDate}
@@ -35,7 +39,7 @@ const ReserveForm = ({room}: {room:RoomDetailProps}) => {
           minDate={new Date()}
           selectsRange={true}
           onChange={handleDateChange}
-          dateFormat={"dd-MM-YYYY"}
+          dateFormat={"dd-MM-yyyy"}
           wrapperClassName="w-full"
           className="py-2 px-4 rounded-md border border-gray-300 w-full"
         />

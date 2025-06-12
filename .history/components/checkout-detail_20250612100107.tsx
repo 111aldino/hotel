@@ -10,9 +10,7 @@ const CheckoutDetail = async ({ reservationId }: { reservationId: string }) => {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100">
         <div className="text-center p-8 bg-white rounded-2xl shadow-xl">
-          <h1 className="text-2xl font-bold text-gray-800">No Reservation Found</h1>
-          <p className="text-gray-600 mt-2">The reservation you&apos;re looking for doesn&apos;t exist.</p>
-          </div>
+          <h1 className="text-2xl font-bold text-gray-800">No Reservation Found</h1>        </div>
       </div>
     )
 
