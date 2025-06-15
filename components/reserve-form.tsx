@@ -126,7 +126,7 @@ const ReserveForm = ({room}: {room:RoomDetailProps}) => {
           minDate={new Date()}
           selectsRange={true}
           onChange={handleDateChange}
-          dateFormat={"dd-MM-YYYY"}
+          dateFormat={"dd-MM-yyyy"}
           wrapperClassName="w-full"
           className="py-2 px-4 rounded-md border border-gray-300 w-full"
         />
